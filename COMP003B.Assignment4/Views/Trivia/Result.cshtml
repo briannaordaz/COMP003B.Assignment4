@@ -1,0 +1,29 @@
+ 
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Answers</h2>
+
+<p>These are the results!</p>
+
+<ul>
+    <li>
+        Question 1: @Model.Question1 @(Model.Question1 == "2011" ? " | Correct" : " | Wrong => Answer: 2011")
+    </li>
+    <li>
+        Question 2: @Model.Question2 @(Model.Question2 == "June 26, 1993" ? " | Correct" : " | Wrong => Answer: June 26, 1993")
+    </li>
+    <li>
+        Question 3: @Model.Question3 @(Model.Question3 == "Florida" ? " | Correct" : " | Wrong => Answer: Florida")
+    </li>
+    <li>
+        Question 4: @Model.Question4 @(Model.Question4 == "7" ? " | Correct" : " | Wrong => Answer: 7")
+    </li>
+    <li>
+        Question 5: @Model.Question5 @(Model.Question5 == "1" ? " | Correct" : " | Wrong => Answer: 1")
+    </li>
+</ul>
+

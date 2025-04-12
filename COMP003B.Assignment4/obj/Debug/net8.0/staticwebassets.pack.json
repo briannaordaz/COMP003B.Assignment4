@@ -17,6 +17,34 @@
       "PackagePath": "staticwebassets/images/arianagrande.jpg"
     },
     {
+      "Id": "/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/wwwroot/images/fifthalbum.jpg",
+      "PackagePath": "staticwebassets/images/fifthalbum.jpg"
+    },
+    {
+      "Id": "/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/wwwroot/images/firstalbum.jpg",
+      "PackagePath": "staticwebassets/images/firstalbum.jpg"
+    },
+    {
+      "Id": "/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/wwwroot/images/fourthalbum.jpg",
+      "PackagePath": "staticwebassets/images/fourthalbum.jpg"
+    },
+    {
+      "Id": "/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/wwwroot/images/secondalbum.jpg",
+      "PackagePath": "staticwebassets/images/secondalbum.jpg"
+    },
+    {
+      "Id": "/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/wwwroot/images/seventhalbum.jpg",
+      "PackagePath": "staticwebassets/images/seventhalbum.jpg"
+    },
+    {
+      "Id": "/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/wwwroot/images/sixthalbum.jpg",
+      "PackagePath": "staticwebassets/images/sixthalbum.jpg"
+    },
+    {
+      "Id": "/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/wwwroot/images/thirdalbum.jpg",
+      "PackagePath": "staticwebassets/images/thirdalbum.jpg"
+    },
+    {
       "Id": "/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

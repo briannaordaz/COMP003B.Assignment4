@@ -3,9 +3,11 @@ using COMP003B.Assignment4.Models.Tickets;
 
 namespace COMP003B.Assignment4.Controllers;
 
+
 public class ConcertController : Controller
 {
-    [HttpGet("concert/ticket/{ConcertCode}")]
+    
+    [HttpGet("/concert/ticket/{ConcertCode?}")]
     public IActionResult ConcertTickets(string ConcertCode)
     {
         var model = new ConcertTickets

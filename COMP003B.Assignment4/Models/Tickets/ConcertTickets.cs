@@ -1,4 +1,6 @@
 using System.ComponentModel.DataAnnotations;
+using COMP003B.Assignment4.Controllers;
+using COMP003B.Assignment4.Models.Quiz;
 
 namespace COMP003B.Assignment4.Models.Tickets;
 public class ConcertTickets
@@ -14,6 +16,8 @@ public class ConcertTickets
         [Required] [Range(1, 20)] public int TicketsCount { get; set; }
         
         public string? ConcertCode { get; set; }
+        
+        public TriviaQuiz TriQuiz { get; set; }
 
         
     
