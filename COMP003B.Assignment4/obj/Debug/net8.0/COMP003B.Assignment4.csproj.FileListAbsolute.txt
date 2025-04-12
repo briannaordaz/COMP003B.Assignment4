@@ -28,3 +28,4 @@
 /Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/obj/Debug/net8.0/COMP003B.Assignment4.pdb
 /Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/obj/Debug/net8.0/COMP003B.Assignment4.genruntimeconfig.cache
 /Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/obj/Debug/net8.0/ref/COMP003B.Assignment4.dll
+/Users/brianna/RiderProjects/COMP003B.Assignment4/COMP003B.Assignment4/obj/Debug/net8.0/COMP003B.Assignment4.sourcelink.json
