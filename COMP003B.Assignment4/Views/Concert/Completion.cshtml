@@ -1,18 +1,32 @@
 
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Completion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
+<h1>Tickets Successfully Bought!</h1>
+<p> Congratulations, @Model.FirstName @Model.LastName for successfully buying tickets for the concert!</p>
 
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-      
-</div>
-</body>
-</html>
+<h2>Ticket Info:</h2>
+<ul>
+    <li>
+        First Name: @Model.FirstName
+    </li>
+    <li>
+        Last Name: @Model.LastName
+    </li>
+    <li>
+        Email: @Model.Email
+    </li>
+    <li>
+        Tickets bought: @Model.TicketsCount
+    </li>
+    
+        @if (!string.IsNullOrEmpty(Model.ConcertCode))
+        {
+            <li> Your concert code is: @Model.ConcertCode</li>
+        }
+    
+</ul>
+
